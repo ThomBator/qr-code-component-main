@@ -38,25 +38,29 @@ p {
     width: 100%;
     background-color: hsl(212, 45%, 89%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
 
 
-
+.image-container {
+    width: 94%;
+    margin: auto;
+}
 .image {
-    max-width: 100%;
+    width: 100%;
     border-radius: 20px;
 }
 
 .card {
     padding: 1rem 1rem 2rem 1rem;
-    max-width: 32%;
-    
+    width: 18%;
     background-color:hsl(0, 0%, 100%);
     border-radius: 20px;
     transition: 0.2s ease-in-out;
+    margin-bottom: 1rem;
     
 }
 
